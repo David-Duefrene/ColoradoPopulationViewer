@@ -1,0 +1,22 @@
+#root {
+	max-width: 100%;
+	text-align: center;
+}
+
+.App {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.SelectionList {
+	list-style-type: none;
+	overflow: scroll;
+	height: 95vh;
+}
+
+.SidePanel {
+
+}
