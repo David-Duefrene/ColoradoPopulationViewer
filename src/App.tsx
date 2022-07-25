@@ -20,6 +20,9 @@ function App() {
 		);
 	});
 	const dataSet = [];
+
+	// https://stackoverflow.com/questions/57409041/element-implicitly-has-an-any-type-because-expression-of-type-string-number
+	// @ts-ignore
 	for (const dataPoint of data[county]) {
 		dataSet.push({
 			date: dataPoint.year,
@@ -34,7 +37,10 @@ function App() {
 			<div className="SidePanel">
 				<ul className='SelectionList'>{countyList}</ul>
 			</div>
-			<ChartBox data={{name: county, items: dataSet}} />
+			<ChartBox data={{
+				/* @ts-ignore */
+				items: dataSet
+			}} />
 		</div>
 	)
 }
