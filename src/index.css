@@ -4,19 +4,19 @@
   line-height: 24px;
   font-weight: 400;
 
+  --alt-color: grey;
+  --text-color: white;
+  --line-color: red;
+  --bg-color: #242424;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--text-color);
+  background-color: var(--bg-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-
-  --alt-color: grey;
-  --text-color: white;
-  --line-color: red;
 }
 
 body {

@@ -15,8 +15,28 @@
 	list-style-type: none;
 	overflow: scroll;
 	height: 95vh;
+	overflow-x: hidden;
+	width: 100%;
 }
 
 .SidePanel {
+	width: 10%
+}
 
+.SelectionButton {
+	width: 100%;
+	background-color: var(--alt-color);
+	color: var(--text-color);
+	font-weight: bold;
+	cursor: pointer
+}
+
+.SelectionButton:hover {
+	background-color: var(--text-color);
+	color: var(--bg-color);
+}
+
+.Active {
+	background-color: var(--text-color);
+	color: var(--bg-color);
 }

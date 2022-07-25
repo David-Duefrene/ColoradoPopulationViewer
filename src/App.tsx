@@ -7,9 +7,17 @@ import './App.css'
 
 function App() {
 	const [county, setCounty] = useState('Denver');
-
-	const countyList = Object.keys(data).map(county => {
-		return <li><button onClick={() => setCounty(county)}>{county}</button></li>
+	const countyList = Object.keys(data).map(entry => {
+		return (
+			<li>
+				<button
+					className={`SelectionButton ${county == entry ? 'Active' : ''}`}
+					onClick={() => setCounty(entry)}
+				>
+					{entry}
+				</button>
+			</li>
+		);
 	});
 	const dataSet = [];
 	for (const dataPoint of data[county]) {

@@ -37,8 +37,6 @@ const ChartBox = ({ data }: ChartBoxProps) => {
 
     const dimensions = { width, height };
     useEffect(() => {
-		console.log('ChartBox dimensions: ', dimensions);
-
         LineChart({ data, dimensions, svgRef });
     }, [data, dimensions, svgRef]);
 
