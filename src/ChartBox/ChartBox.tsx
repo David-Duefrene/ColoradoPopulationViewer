@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // @ts-ignore
-import LineChart from './LineChart';
+import LineChart from './LineChart/LineChart';
 
 import { ChartBoxProps } from './Interfaces';
 // import './ChartBox.css';
