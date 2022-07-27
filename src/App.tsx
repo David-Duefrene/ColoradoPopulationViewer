@@ -37,10 +37,7 @@ function App() {
 			<div className="SidePanel">
 				<ul className='SelectionList'>{countyList}</ul>
 			</div>
-			<ChartBox data={{
-				/* @ts-ignore */
-				items: dataSet
-			}} />
+			<ChartBox data={dataSet} />
 		</div>
 	)
 }
