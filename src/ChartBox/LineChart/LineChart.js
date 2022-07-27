@@ -1,13 +1,12 @@
 import * as d3 from 'd3';
 
-const LineChart = ({ data, dimensions, svgRef, min }) => {
+const LineChart = ({ data, dimensions, svgRef, min, max }) => {
     const { width, height } = dimensions;
     const parseDate = d3.timeParse('%Y');
     const xScale = d3.scaleTime()
         .domain(d3.extent(data.items, (d) => parseDate(d.date)))
         .range([0, width]);
 
-    const max = d3.max(data.items, (d) => d.value);
     const yScale = d3.scaleLinear()
         .domain([
             min < 0 ? min * 1.25 : min * 0.75,
