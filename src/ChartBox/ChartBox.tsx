@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 // @ts-ignore
 import LineChart from './LineChart/LineChart';
+import * as d3 from 'd3';
 
 import { ChartBoxProps } from './Interfaces';
 // import './ChartBox.css';
@@ -38,7 +39,8 @@ const ChartBox = ({ data }: ChartBoxProps) => {
 
     const dimensions = { width, height };
     useEffect(() => {
-        LineChart({ data, dimensions, svgRef });
+		const min = d3.min(data.items, d => d.value);
+        LineChart({ data, dimensions, svgRef, min });
     }, [data, dimensions, svgRef]);
 
     return (

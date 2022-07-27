@@ -4,6 +4,7 @@ export interface ChartData {
 }
 
 export interface ChartBoxProps {
-	data: ChartData[];
-	name: string;
+	data: {
+		items: ChartData[]
+	};
 }
