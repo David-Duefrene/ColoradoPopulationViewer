@@ -40,7 +40,8 @@ const ChartBox = ({ data }: ChartBoxProps) => {
     const dimensions = { width, height };
     useEffect(() => {
 		const min = d3.min(data.items, d => d.value);
-        LineChart({ data, dimensions, svgRef, min });
+		const max = d3.max(data.items, d => d.value);
+        LineChart({ data, dimensions, svgRef, min, max });
     }, [data, dimensions, svgRef]);
 
     return (
