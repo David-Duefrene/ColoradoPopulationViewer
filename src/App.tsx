@@ -19,7 +19,9 @@ function App() {
 					className={`SelectionButton ${county.includes(entry) ? 'Active' : ''}`}
 					onClick={() => {
 						if (county.includes(entry)) {
-							setCounty(county.filter(c => c !== entry));
+							if (county.length > 1) {
+								setCounty(county.filter(c => c !== entry));
+							}
 							return;
 						}
 						setCounty([...county, entry]);
