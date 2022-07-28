@@ -11,7 +11,7 @@ interface ChartData {
 }
 
 function App() {
-	const [county, setCounty] = useState(['Denver']);
+	const [county, setCounty] = useState(['Denver', 'El Paso']);
 	const countyList = Object.keys(data).map(entry => {
 		return (
 			<li key={entry}>
@@ -27,20 +27,21 @@ function App() {
 			</li>
 		);
 	});
-	const dataSets: any = {};
+	const dataSets: any = [];
 
 	county.forEach(entry => {
-		dataSets[entry] = [];
+		// dataSets[entry] = [];
+		const newData = [];
 		// https://stackoverflow.com/questions/57409041/element-implicitly-has-an-any-type-because-expression-of-type-string-number
 		// @ts-ignore
 		for (const dataPoint of data[entry]) {
-			dataSets[entry].push({
+			newData.push({
 				date: dataPoint.year,
 				value: dataPoint.totalPopulation
 			});
 		};
-
-		dataSets[entry].sort((a: ChartData, b: ChartData) => a.date - b.date);
+		newData.sort((a: ChartData, b: ChartData) => a.date - b.date);
+		dataSets.push({data: newData, name: entry});
 	});
 
 	return (
@@ -48,7 +49,7 @@ function App() {
 			<div className="SidePanel">
 				<ul className='SelectionList'>{countyList}</ul>
 			</div>
-			<ChartBox data={dataSets[Object.keys(dataSets)[0]]} />
+			<ChartBox data={dataSets} />
 		</div>
 	)
 }

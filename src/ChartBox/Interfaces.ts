@@ -3,6 +3,11 @@ export interface ChartData {
 	value: number;
 }
 
+export interface ChartBoxData {
+	data: ChartData[];
+	name: string;
+}
+
 export interface ChartBoxProps {
-	data: ChartData[]
+	data: ChartBoxData[]
 }
