@@ -4,7 +4,7 @@ const LineChart = ({ data, dimensions, svgRef, min, max }) => {
     const { width, height } = dimensions;
     const parseDate = d3.timeParse('%Y');
     const xScale = d3.scaleTime()
-        .domain(d3.extent(data, (d) => parseDate(d.date)))
+        .domain(d3.extent(data[0].data, (d) => parseDate(d.date)))
         .range([0, width]);
 
     const yScale = d3.scaleLinear()
@@ -47,19 +47,22 @@ const LineChart = ({ data, dimensions, svgRef, min, max }) => {
         .attr('font-size', '0.75rem');
 
     // Draw the line
-	const DrawLine = () => {
+	const DrawLine = (lineData) => {
 		const line = d3.line()
 			.x((d) => xScale(parseDate(d.date)))
 			.y((d) => yScale(d.value));
 
 		svg.append('path')
-			.attr('d', line(data))
+			.attr('d', line(lineData))
 			.attr('stroke', 'var(--line-color)')
 			.attr('stroke-width', 2)
 			.attr('fill', 'none')
 			.attr('class', 'line');
 	}
-	DrawLine();
+
+	for (const dataLine of data) {
+		DrawLine(dataLine.data);
+	}
 };
 
 export default LineChart;

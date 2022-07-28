@@ -18,7 +18,10 @@ function App() {
 				<button
 					className={`SelectionButton ${county.includes(entry) ? 'Active' : ''}`}
 					onClick={() => {
-						if (county.includes(entry)) { return; }
+						if (county.includes(entry)) {
+							setCounty(county.filter(c => c !== entry));
+							return;
+						}
 						setCounty([...county, entry]);
 					}}
 				>
@@ -30,7 +33,6 @@ function App() {
 	const dataSets: any = [];
 
 	county.forEach(entry => {
-		// dataSets[entry] = [];
 		const newData = [];
 		// https://stackoverflow.com/questions/57409041/element-implicitly-has-an-any-type-because-expression-of-type-string-number
 		// @ts-ignore
