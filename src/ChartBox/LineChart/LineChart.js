@@ -47,21 +47,21 @@ const LineChart = ({ data, dimensions, svgRef, min, max }) => {
         .attr('font-size', '0.75rem');
 
     // Draw the line
-	const DrawLine = (lineData) => {
+	const DrawLine = (lineData, key) => {
 		const line = d3.line()
 			.x((d) => xScale(parseDate(d.date)))
 			.y((d) => yScale(d.value));
 
 		svg.append('path')
 			.attr('d', line(lineData))
-			.attr('stroke', 'var(--line-color)')
+			.attr('stroke', `var(--line-color-${key%10})`)
 			.attr('stroke-width', 2)
 			.attr('fill', 'none')
 			.attr('class', 'line');
 	}
 
-	for (const dataLine of data) {
-		DrawLine(dataLine.data);
+	for (const dataLine in data) {
+		DrawLine(data[dataLine].data, dataLine);
 	}
 };
 
