@@ -46,7 +46,7 @@ const ChartBox = ({ data }: ChartBoxProps) => {
 			if (testMax > max) { max = testMax; }
 		};
 
-        LineChart({ data: data[0].data, dimensions, svgRef, min, max });
+		LineChart({ data, dimensions, svgRef, min, max });
     }, [data, dimensions, svgRef]);
 
     return (
