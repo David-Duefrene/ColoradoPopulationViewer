@@ -6,11 +6,21 @@
 
   --alt-color: grey;
   --text-color: white;
-  --line-color: red;
   --bg-color: #242424;
   color-scheme: light dark;
   color: var(--text-color);
   background-color: var(--bg-color);
+
+  --line-color-0: #ff0000;
+  --line-color-1: #4400ff;
+  --line-color-2: #51ff00;
+  --line-color-3: #00a2ff;
+  --line-color-4: #00ff73;
+  --line-color-5: #d400ff;
+  --line-color-6: #d0ff00;
+  --line-color-7: #ff0080;
+  --line-color-8: #2bff00;
+  --line-color-9: #0011ff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
