@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite",
+    "test": "vitest",
     "build": "tsc && vite build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
@@ -16,12 +17,15 @@
     "soda-js": "0.2.3"
   },
   "devDependencies": {
+    "@testing-library/react": "^13.3.0",
     "@types/d3": "7.4.0",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
     "@vitejs/plugin-react": "2.0.0",
     "gh-pages": "4.0.0",
+    "jsdom": "^20.0.0",
     "typescript": "4.7.4",
-    "vite": "3.0.2"
+    "vite": "3.0.2",
+    "vitest": "^0.22.0"
   }
 }
