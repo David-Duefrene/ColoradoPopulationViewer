@@ -13,8 +13,7 @@
   "dependencies": {
     "d3": "7.6.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "soda-js": "0.2.3"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@testing-library/react": "13.3.0",
