@@ -1,6 +1,13 @@
-  auto-approve-dependabot:
-    name: 'Dependabot'
-    needs: [build, e2e]
+name: 'auto-approve-dependabot'
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request'}}
     steps:
