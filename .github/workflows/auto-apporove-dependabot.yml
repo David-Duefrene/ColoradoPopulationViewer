@@ -1,4 +1,4 @@
-  auto-apporove-dependabot:
+  auto-approve-dependabot:
     name: 'Dependabot'
     needs: [build, e2e]
     runs-on: ubuntu-latest
