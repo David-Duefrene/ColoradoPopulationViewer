@@ -16,6 +16,7 @@
     "soda-js": "0.2.3"
   },
   "devDependencies": {
+    "@cypress/snapshot": "^2.1.7",
     "@types/d3": "7.4.0",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
