@@ -1,0 +1,1896 @@
+// Vitest Snapshot v1
+
+exports[`App > renders without crashing 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div
+          class="SidePanel"
+        >
+          <ul
+            class="SelectionList"
+          >
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                San Juan
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Pitkin
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Teller
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Weld
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Costilla
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton Active"
+              >
+                El Paso
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Broomfield
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Las Animas
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Jackson
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Chaffee
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Eagle
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Kit Carson
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Montrose
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Elbert
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Washington
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                San Miguel
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Pueblo
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Gunnison
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Saguache
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Ouray
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Custer
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Cheyenne
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Rio Blanco
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Kiowa
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Delta
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Crowley
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Fremont
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Garfield
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Routt
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton Active"
+              >
+                Denver
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Morgan
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Alamosa
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Douglas
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Mineral
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Rio Grande
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Hinsdale
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Lake
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Baca
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Montezuma
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Conejos
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Clear Creek
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Sedgwick
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Arapahoe
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Larimer
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Huerfano
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Otero
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Archuleta
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Phillips
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Yuma
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Moffat
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Prowers
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Park
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Mesa
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Grand
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Boulder
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Jefferson
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Lincoln
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Bent
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Dolores
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Adams
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Gilpin
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Logan
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                La Plata
+              </button>
+            </li>
+            <li>
+              <button
+                class="SelectionButton "
+              >
+                Summit
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h1>
+            Colorado Population & Projected Growth
+          </h1>
+          <svg
+            class="Chart"
+            height="633.6"
+            width="939.2"
+          >
+            <g
+              transform="translate(100,20)"
+            >
+              <g
+                fill="none"
+                font-family="sans-serif"
+                font-size="10"
+                text-anchor="middle"
+                transform="translate(0, 576)"
+              >
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(0.5,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    1990
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(68.75732146931325,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    1995
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(137.0146429386265,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    2000
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(205.30934519735342,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    2005
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(273.56666666666666,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    2010
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(341.82398813597996,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    2015
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(410.0813096052932,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    2020
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(478.3760118640201,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    2025
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(546.6333333333333,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    2030
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(614.8906548026466,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    2035
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(683.1479762719599,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    2040
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(751.4426785306869,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    2045
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(819.7,0)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    y2="-576"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.71em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    transform="rotate(-45)"
+                    y="3"
+                  >
+                    2050
+                  </text>
+                </g>
+              </g>
+              <g
+                fill="none"
+                font-family="sans-serif"
+                font-size="10"
+                text-anchor="end"
+              >
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(0,525.4526468543638)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    x2="819.2"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.32em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    x="-3"
+                  >
+                    300000
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(0,459.30054544042554)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    x2="819.2"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.32em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    x="-3"
+                  >
+                    400000
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(0,393.14844402648725)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    x2="819.2"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.32em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    x="-3"
+                  >
+                    500000
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(0,326.99634261254903)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    x2="819.2"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.32em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    x="-3"
+                  >
+                    600000
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(0,260.8442411986107)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    x2="819.2"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.32em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    x="-3"
+                  >
+                    700000
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(0,194.6921397846724)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    x2="819.2"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.32em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    x="-3"
+                  >
+                    800000
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(0,128.5400383707341)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    x2="819.2"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.32em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    x="-3"
+                  >
+                    900000
+                  </text>
+                </g>
+                <g
+                  class="tick"
+                  opacity="1"
+                  transform="translate(0,62.387936956795826)"
+                >
+                  <line
+                    stroke="var(--alt-color)"
+                    x2="819.2"
+                  />
+                  <text
+                    color="var(--text-color)"
+                    dy="0.32em"
+                    fill="currentColor"
+                    font-size="0.75rem"
+                    x="-3"
+                  >
+                    1000000
+                  </text>
+                </g>
+              </g>
+              <path
+                class="line"
+                d="M0,413.9123755049836L13.643988135979923,409.06474951337015L27.287976271959845,400.4113931274129L40.96934519735341,391.7646519515971L54.61333333333334,389.8356566743666L68.25732146931325,387.5415017973312L81.90130960529319,380.5690703083021L95.58267853068675,374.49498435647433L109.22666666666667,370.5476884651046L122.8706548026466,362.5393150679333L136.5146429386265,355.11374168421867L150.19601186402008,350.77350231045017L163.84000000000003,353.5604903430194L177.48398813597993,352.7256508231755L191.12797627195985,352.8083409499429L204.80934519735342,353.31506604677367L218.45333333333335,351.06324851464325L232.09732146931324,346.0522268325374L245.7413096052932,338.4665653634011L259.42267853068677,329.42357310011573L273.06666666666666,323.26878158456293L286.7106548026466,313.1150955385375L300.3546429386265,304.7177477850522L314.0360118640201,296.5274561089925L327.68000000000006,287.7100425115286L341.32398813597996,276.5296758515589L354.96797627195986,269.29528204093066L368.64934519735345,264.88558296067754L382.29333333333335,258.5713648807171L395.93732146931325,253.63840267827976L409.5813096052932,248.68361028237578L423.2626785306868,243.7354330966132L436.9066666666667,238.32948336906614L450.5506548026466,231.28230000543928L464.1946429386265,225.4397464085603L477.8760118640201,219.64151471962862L491.52,214.11847577257888L505.16398813597993,208.63446656536343L518.8079762719599,203.21462489651944L532.4893451973534,197.8893807326974L546.1333333333333,192.66468776302457L559.7773214693133,187.5471611976423L573.4213096052932,182.71541171036824L587.1026785306867,178.20846904103664L600.7466666666667,173.97804215561527L614.3906548026466,170.04926885264146L628.0346429386266,166.4062726277759L641.7160118640201,163.07419127955583L655.3600000000001,160.03913286668433L669.00398813598,157.28985153192107L682.6479762719599,155.15975386639226L696.3293451973535,153.6389170548858L709.9733333333334,152.90529025020524L723.6173214693133,152.97144235161917L737.2613096052933,153.84266552724074L750.9426785306869,154.7893020984742L764.5866666666667,155.79679860300845L778.2306548026467,156.83075594810833L791.8746429386265,157.87728219247686L805.5560118640201,158.93042364698672L819.2,160.69536171271062"
+                fill="none"
+                stroke="var(--line-color-0)"
+                stroke-width="2"
+              />
+              <path
+                class="line"
+                d="M0,460.1970163012738L13.643988135979923,454.863833885282L27.287976271959845,443.7052974187789L40.96934519735341,434.24025474847264L54.61333333333334,421.42063901546555L68.25732146931325,412.6978229230237L81.90130960529319,407.8713656038627L95.58267853068675,401.375229245014L109.22666666666667,393.9595786765115L122.8706548026466,386.82110541293343L136.5146429386265,379.5483433834851L150.19601186402008,368.6114164567186L163.84000000000003,362.72189486783566L177.48398813597993,358.4669917048912L191.12797627195985,353.9832022710545L204.80934519735342,346.79048428431696L218.45333333333335,338.072298838974L232.09732146931324,333.92059295423525L245.7413096052932,327.1155262817834L259.42267853068677,320.8608450930956L273.06666666666666,308.4818023555053L286.7106548026466,300.60639468217596L300.3546429386265,294.4502801245949L314.0360118640201,287.9303290092371L327.68000000000006,282.9920746386866L341.32398813597996,274.9155645770589L354.96797627195986,265.4439066966112L368.64934519735345,257.17290945682646L382.29333333333335,248.5632134578024L395.93732146931325,243.47810142211299L409.5813096052932,239.4137163112406L423.2626785306868,235.29574799822294L436.9066666666667,229.46245569554188L450.5506548026466,222.66995792235872L464.1946429386265,215.85562995570893L477.8760118640201,208.71252604503186L491.52,201.5647914872558L505.16398813597993,194.38464239978694L518.8079762719599,187.17340182465355L532.4893451973534,179.95554603937873L546.1333333333333,172.71784462367972L559.7773214693133,165.47882016595247L573.4213096052932,158.2715487169039L587.1026785306867,151.22634991631946L600.7466666666667,144.36571547867993L614.3906548026466,137.69824517716907L628.0346429386266,131.2246005328011L641.7160118640201,124.97719607526875L655.3600000000001,118.95338572051557L669.00398813598,113.18029183012113L682.6479762719599,107.65460679901487L696.3293451973535,102.37236150111194L709.9733333333334,97.35274004582227L723.6173214693133,92.57325071866524L737.2613096052933,88.04315481383873L750.9426785306869,83.75319103714486L764.5866666666667,79.69939026249868L778.2306548026467,75.87050663265994L791.8746429386265,72.27513992081244L805.5560118640201,68.91130556391364L819.2,65.76445009965263"
+                fill="none"
+                stroke="var(--line-color-1)"
+                stroke-width="2"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div
+        class="SidePanel"
+      >
+        <ul
+          class="SelectionList"
+        >
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              San Juan
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Pitkin
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Teller
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Weld
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Costilla
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton Active"
+            >
+              El Paso
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Broomfield
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Las Animas
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Jackson
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Chaffee
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Eagle
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Kit Carson
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Montrose
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Elbert
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Washington
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              San Miguel
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Pueblo
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Gunnison
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Saguache
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Ouray
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Custer
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Cheyenne
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Rio Blanco
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Kiowa
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Delta
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Crowley
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Fremont
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Garfield
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Routt
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton Active"
+            >
+              Denver
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Morgan
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Alamosa
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Douglas
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Mineral
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Rio Grande
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Hinsdale
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Lake
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Baca
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Montezuma
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Conejos
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Clear Creek
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Sedgwick
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Arapahoe
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Larimer
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Huerfano
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Otero
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Archuleta
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Phillips
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Yuma
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Moffat
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Prowers
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Park
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Mesa
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Grand
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Boulder
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Jefferson
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Lincoln
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Bent
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Dolores
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Adams
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Gilpin
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Logan
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              La Plata
+            </button>
+          </li>
+          <li>
+            <button
+              class="SelectionButton "
+            >
+              Summit
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h1>
+          Colorado Population & Projected Growth
+        </h1>
+        <svg
+          class="Chart"
+          height="633.6"
+          width="939.2"
+        >
+          <g
+            transform="translate(100,20)"
+          >
+            <g
+              fill="none"
+              font-family="sans-serif"
+              font-size="10"
+              text-anchor="middle"
+              transform="translate(0, 576)"
+            >
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(0.5,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  1990
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(68.75732146931325,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  1995
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(137.0146429386265,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  2000
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(205.30934519735342,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  2005
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(273.56666666666666,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  2010
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(341.82398813597996,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  2015
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(410.0813096052932,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  2020
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(478.3760118640201,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  2025
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(546.6333333333333,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  2030
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(614.8906548026466,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  2035
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(683.1479762719599,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  2040
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(751.4426785306869,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  2045
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(819.7,0)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  y2="-576"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.71em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  transform="rotate(-45)"
+                  y="3"
+                >
+                  2050
+                </text>
+              </g>
+            </g>
+            <g
+              fill="none"
+              font-family="sans-serif"
+              font-size="10"
+              text-anchor="end"
+            >
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(0,525.4526468543638)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  x2="819.2"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.32em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  x="-3"
+                >
+                  300000
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(0,459.30054544042554)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  x2="819.2"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.32em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  x="-3"
+                >
+                  400000
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(0,393.14844402648725)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  x2="819.2"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.32em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  x="-3"
+                >
+                  500000
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(0,326.99634261254903)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  x2="819.2"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.32em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  x="-3"
+                >
+                  600000
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(0,260.8442411986107)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  x2="819.2"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.32em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  x="-3"
+                >
+                  700000
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(0,194.6921397846724)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  x2="819.2"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.32em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  x="-3"
+                >
+                  800000
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(0,128.5400383707341)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  x2="819.2"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.32em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  x="-3"
+                >
+                  900000
+                </text>
+              </g>
+              <g
+                class="tick"
+                opacity="1"
+                transform="translate(0,62.387936956795826)"
+              >
+                <line
+                  stroke="var(--alt-color)"
+                  x2="819.2"
+                />
+                <text
+                  color="var(--text-color)"
+                  dy="0.32em"
+                  fill="currentColor"
+                  font-size="0.75rem"
+                  x="-3"
+                >
+                  1000000
+                </text>
+              </g>
+            </g>
+            <path
+              class="line"
+              d="M0,413.9123755049836L13.643988135979923,409.06474951337015L27.287976271959845,400.4113931274129L40.96934519735341,391.7646519515971L54.61333333333334,389.8356566743666L68.25732146931325,387.5415017973312L81.90130960529319,380.5690703083021L95.58267853068675,374.49498435647433L109.22666666666667,370.5476884651046L122.8706548026466,362.5393150679333L136.5146429386265,355.11374168421867L150.19601186402008,350.77350231045017L163.84000000000003,353.5604903430194L177.48398813597993,352.7256508231755L191.12797627195985,352.8083409499429L204.80934519735342,353.31506604677367L218.45333333333335,351.06324851464325L232.09732146931324,346.0522268325374L245.7413096052932,338.4665653634011L259.42267853068677,329.42357310011573L273.06666666666666,323.26878158456293L286.7106548026466,313.1150955385375L300.3546429386265,304.7177477850522L314.0360118640201,296.5274561089925L327.68000000000006,287.7100425115286L341.32398813597996,276.5296758515589L354.96797627195986,269.29528204093066L368.64934519735345,264.88558296067754L382.29333333333335,258.5713648807171L395.93732146931325,253.63840267827976L409.5813096052932,248.68361028237578L423.2626785306868,243.7354330966132L436.9066666666667,238.32948336906614L450.5506548026466,231.28230000543928L464.1946429386265,225.4397464085603L477.8760118640201,219.64151471962862L491.52,214.11847577257888L505.16398813597993,208.63446656536343L518.8079762719599,203.21462489651944L532.4893451973534,197.8893807326974L546.1333333333333,192.66468776302457L559.7773214693133,187.5471611976423L573.4213096052932,182.71541171036824L587.1026785306867,178.20846904103664L600.7466666666667,173.97804215561527L614.3906548026466,170.04926885264146L628.0346429386266,166.4062726277759L641.7160118640201,163.07419127955583L655.3600000000001,160.03913286668433L669.00398813598,157.28985153192107L682.6479762719599,155.15975386639226L696.3293451973535,153.6389170548858L709.9733333333334,152.90529025020524L723.6173214693133,152.97144235161917L737.2613096052933,153.84266552724074L750.9426785306869,154.7893020984742L764.5866666666667,155.79679860300845L778.2306548026467,156.83075594810833L791.8746429386265,157.87728219247686L805.5560118640201,158.93042364698672L819.2,160.69536171271062"
+              fill="none"
+              stroke="var(--line-color-0)"
+              stroke-width="2"
+            />
+            <path
+              class="line"
+              d="M0,460.1970163012738L13.643988135979923,454.863833885282L27.287976271959845,443.7052974187789L40.96934519735341,434.24025474847264L54.61333333333334,421.42063901546555L68.25732146931325,412.6978229230237L81.90130960529319,407.8713656038627L95.58267853068675,401.375229245014L109.22666666666667,393.9595786765115L122.8706548026466,386.82110541293343L136.5146429386265,379.5483433834851L150.19601186402008,368.6114164567186L163.84000000000003,362.72189486783566L177.48398813597993,358.4669917048912L191.12797627195985,353.9832022710545L204.80934519735342,346.79048428431696L218.45333333333335,338.072298838974L232.09732146931324,333.92059295423525L245.7413096052932,327.1155262817834L259.42267853068677,320.8608450930956L273.06666666666666,308.4818023555053L286.7106548026466,300.60639468217596L300.3546429386265,294.4502801245949L314.0360118640201,287.9303290092371L327.68000000000006,282.9920746386866L341.32398813597996,274.9155645770589L354.96797627195986,265.4439066966112L368.64934519735345,257.17290945682646L382.29333333333335,248.5632134578024L395.93732146931325,243.47810142211299L409.5813096052932,239.4137163112406L423.2626785306868,235.29574799822294L436.9066666666667,229.46245569554188L450.5506548026466,222.66995792235872L464.1946429386265,215.85562995570893L477.8760118640201,208.71252604503186L491.52,201.5647914872558L505.16398813597993,194.38464239978694L518.8079762719599,187.17340182465355L532.4893451973534,179.95554603937873L546.1333333333333,172.71784462367972L559.7773214693133,165.47882016595247L573.4213096052932,158.2715487169039L587.1026785306867,151.22634991631946L600.7466666666667,144.36571547867993L614.3906548026466,137.69824517716907L628.0346429386266,131.2246005328011L641.7160118640201,124.97719607526875L655.3600000000001,118.95338572051557L669.00398813598,113.18029183012113L682.6479762719599,107.65460679901487L696.3293451973535,102.37236150111194L709.9733333333334,97.35274004582227L723.6173214693133,92.57325071866524L737.2613096052933,88.04315481383873L750.9426785306869,83.75319103714486L764.5866666666667,79.69939026249868L778.2306548026467,75.87050663265994L791.8746429386265,72.27513992081244L805.5560118640201,68.91130556391364L819.2,65.76445009965263"
+              fill="none"
+              stroke="var(--line-color-1)"
+              stroke-width="2"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
