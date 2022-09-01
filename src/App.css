@@ -7,20 +7,19 @@
 	height: 100vh;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	justify-content: center;
 }
 
 .SelectionList {
 	list-style-type: none;
-	overflow: scroll;
+	overflow-y: scroll;
 	height: 95vh;
-	overflow-x: hidden;
 	width: 100%;
 }
 
 .SidePanel {
-	width: 10%
+	width: 10%;
+	margin-right: 3%;
 }
 
 .SelectionButton {
