@@ -16,12 +16,12 @@ const ChartBox = ({ data }: ChartBoxProps) => {
     /**
      * The width of the chart
      */
-    const [width, setWidth] = useState(window.innerWidth * 0.8);
+    const [width, setWidth] = useState(1500);
 
     /**
      * The height of the chart
      */
-    const [height, setHeight] = useState(window.innerHeight * 0.75);
+    const [height, setHeight] = useState(750);
 
     // Resize the chart on window resize
     useEffect(() => {
