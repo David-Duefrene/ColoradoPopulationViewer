@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
+	"test": "vitest",
     "dev": "npm run server",
     "prod": "npm run build && npm run server:prod",
     "build": "vite build",
