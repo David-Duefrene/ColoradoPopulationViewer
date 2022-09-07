@@ -8,6 +8,7 @@
     "prod": "npm run build && npm run server:prod",
     "build": "vite build",
     "server": "node ./server",
+	"deploy": "gh-pages -d dist/client",
     "server:prod": "cross-env NODE_ENV=production node ./server"
   },
   "dependencies": {
