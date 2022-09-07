@@ -4,8 +4,22 @@ import React, { useState, useEffect } from 'react';
 import LineChart from './LineChart/LineChart';
 import * as d3 from 'd3';
 
-import { ChartBoxProps, ChartData } from './Interfaces';
 // import './ChartBox.css';
+
+interface ChartData {
+	date: number;
+	value: number;
+}
+
+interface ChartBoxData {
+	data: ChartData[];
+	name: string;
+}
+
+interface ChartBoxProps {
+	data: ChartBoxData[]
+}
+
 
 /**
  *  ChartBox is a React wrapper for LineChart.
