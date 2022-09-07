@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
-import data from './data.json';
-import ChartBox from './ChartBox/ChartBox';
+import data from './data.json'
+import ChartBox from '../../ChartBox/ChartBox'
 
 import './App.css'
 
